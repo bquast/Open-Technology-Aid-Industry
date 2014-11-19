@@ -11,6 +11,7 @@ Some first ideas:
 ## why are open technologies relevant to the aid industry?
 
 * gratis
+* customisable
 * vendor independence:
   - continuity
   - platform independence
@@ -22,3 +23,4 @@ Some first ideas:
 * ODK / KoBo Toolbox
 * Cloud document editing
 * cryptocurrencies
+* OpenStreetMap
