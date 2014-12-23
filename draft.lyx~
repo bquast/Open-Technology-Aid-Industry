@@ -6,6 +6,7 @@
 \begin_preamble
 % use the biblatex-chicago package
 \usepackage[authordate,backend=biber]{biblatex-chicago}
+\let\cite\textcite
 
 % add the bib file
 \addbibresource{D:/Drive/LaTeX/bibliography.bib} 
@@ -50,7 +51,7 @@
 \use_esint 1
 \use_mhchem 1
 \use_mathdots 1
-\cite_engine natbib_authoryear
+\cite_engine basic
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -78,7 +79,7 @@
 \begin_body
 
 \begin_layout Title
-Financial Tech in the Aid Industry: Bitcoin and Crowdfunding
+Innovation in Development Finance: Bitcoin and Crowdfunding
 \end_layout
 
 \begin_layout Author
@@ -88,132 +89,260 @@ Bastiaan Quast
 \begin_layout Abstract
 The internet impacts virtually everything around us, the first half of this
  decade has finally seen that impact extend to the financial sector.
- This paper discusses two recent innovations in financial technology - Bitcoin
- and crowdfunding - in relation to the aid industry.
+ we discuss two recent innovations in financial technology - Bitcoin and
+ crowdfunding - in relation to development aid.
+ Many aspects of Bitcoin are very enabeling, which provides the development
+ sector with a powerful tool for the achivement of its aims.
+ In this context we discuss i.a.
+ remittances, mobile transactions, and barter currencies in times of financial
+ crisis.
+ Furthermore, potential uses in the development sector itself that we discuss
+ are, accountability via the public ledger system, low threshhold online
+ funding, due to the pre-paid nature, and a lesser relience on local governments.
 \end_layout
 
 \begin_layout Section
-What is Bitcoin?
+Introduction
 \end_layout
 
-\begin_layout Itemize
-Bitcoin (capital B): the network / protocol 
+\begin_layout Standard
+Bitcoin is a online decentralised monetary system, which aims to cut out
+ many of the middle men in the financial system, specifically governments
+ and banks.
+ Bitcoin is set up to be completely anonymous and decentralised, the originates
+ as a whitepaper "Bitcoin: A peer-to-peer electronic cash system" published
+ under the psuedonym 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nakamoto2008bitcoin"
+
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Itemize
-a bitcoin (miniscule b): a coin
+\begin_layout Standard
+The ownership of bitcoins is registeren in the public ledger called the
+ blockchain, and can be proven by publishing a signature online, using a
+ secret key.
+ This means that transactions can be conducted from any computer or smartphone
+ with internet access without a third party being needed.
 \end_layout
 
-\begin_layout Itemize
-purpose: cutting out the middle man
+\begin_layout Standard
+There are many uses for this type of a monetary system, in fact the aim
+ of the Bitcoin foundation, is to do to the financial industry, what the
+ internet did to the publishing industry.
+ In this article we will focus on the uses particular to development aid.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-banks (save costs)
+\begin_layout Standard
+In the next section, we discuss the mechanics behind the Bitcoin system
+ in some more detail, with examples specific to development aid.
+ Subsequently, we list some of the key potential uses of Bitcoin in the
+ development.
+ In section four we discuss Crowdfunding and how it relates to the development
+ sector.
+ We pay some further attention to the economics behind bitcoin and how this
+ relates to development aid in section five.
+ 
 \end_layout
 
-\begin_layout Itemize
-governments (no surprise monetary policy, no oversight)
-\end_layout
-
-\end_deeper
 \begin_layout Section
 How does Bitcoin work?
 \end_layout
 
-\begin_layout Itemize
-public ledger: trace transactions and final destinations
+\begin_layout Standard
+It is useful at this point to make the distinction between Bitcoin (capital
+ B), which is the entire system, and bitcoin (miniculus b), which is the
+ dominant unit of account, similar to a swiss franc or a euro.
 \end_layout
 
-\begin_layout Itemize
-anonymous addresses: unless chosen to reveal by address owner, a donor could
- demand this
+\begin_layout Standard
+All transactions in the bitcoin system are stored in a public ledger, called
+ the blockchain.
+ It includes the amount, the sending and receiving addresses, as well as
+ an optional message.
+ Since all transactions are public (thought the addresses are anonymous),
+ it enables indefinite tracking of flows.
+ This can increase accountability and prevent leakages.
 \end_layout
 
-\begin_layout Itemize
-alternative cryptocurrencies: 
+\begin_layout Section
+Potential Uses of Bitcoin in Development
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-
+\begin_layout Standard
+There are many (potential) uses of Bitcoin in the development sector.
+ An obvious first for a truely global and location independent monetary
+ system is remittances.
+ Transactions are virtually of costs, and distance plays no role.
+ The only requirement here would be that there exists a market where Bitcoin
+ can be traded for local currency, which is true for virtually all currencies.
 \end_layout
 
-\end_deeper
+\begin_layout Standard
+However, even if such a market would not exist, there is to potential for
+ communities to accept bitcoin as tender, in addition to the existing forms.
+ In particular, mobile payment systems using either smartphones or sms-based
+ systems would make this particularly convenient.
+\end_layout
+
+\begin_layout Section
+Crowdfunding and Bitcoin
+\end_layout
+
+\begin_layout Standard
+A further innovation in the finance industry is crowdfunding.
+ In a crowdfunding campaign an idea is described and the public is asked
+ to 'donate' an amount in order to make it come true.
+ Depending on the amount 'donated' this can unlock certain perks, such as:
+ a thank you on social media, mentioning on the website or a physical or
+ digital copy of the final product, e.g.
+ the Peddle smartwatch.
+ Many of these campaigns have goals that involve social development, such
+ as the Keepod campaign.
+ Which aims to create usb key which contain an operating system that can
+ be loaded direct from the USB key, for people who do not own a comptuer.
+ Contributors in this campaign could donate money, for each key that was
+ ordered, an additional key was given to slumdwellers in Nairobi.
+\end_layout
+
+\begin_layout Standard
+Generally these campaigns are organised through established platforms such
+ a Kickstarter of Indiegogo.
+ There are several reasons for this, firstly, payment if often via creditcard,
+ which means that the institution has to be trustworthy.
+ Since Bitcoin operate on a sort of pre-paid model, such as paypal, it enables
+ the customer to contribute without surendering sensible information.
+ A good example of a crowdfunding initiative that uses Bitcoin, is called
+ "Bitcoin against Ebola", which provides books and lunches for children
+ living in affected areas.
+\end_layout
+
+\begin_layout Standard
+A variation on crowdfunding is the relatively recent phenomenon of internet
+ tipping, like it real world counterpart, a good dead, comment or idea is
+ rewarded (after the fact) with a tip.
+ By operating on a pre-paid model, tips can be given to total strangers,
+ who otherwise would perhaps not be trusted with this sensible information.
+\end_layout
+
 \begin_layout Section
 Economics of Bitcoin
 \end_layout
 
-\begin_layout Itemize
-value from nothing, like gold
+\begin_layout Standard
+In the context of Bitcoin, the discussion of where it values derives from
+ and the fact that is it not legal tender.
 \end_layout
 
-\begin_layout Itemize
-deflationary
+\begin_layout Standard
+The discussion on it value is a complicated one, outside of the scope of
+ this article.
+ We will however make two observations:
 \end_layout
 
-\begin_layout Itemize
-not Legal tender, why not relevant
+\begin_layout Enumerate
+Bitcoin has sustained a large and positive value over a sustained period
+ of time
 \end_layout
 
-\begin_layout Itemize
-tax avoidance
+\begin_layout Enumerate
+Most transaction methods, have no intrinsic value, fiat currencies, but
+ even gold has very little
 \end_layout
 
-\begin_layout Itemize
-illegal transactions
+\begin_layout Standard
+For a further discussion of Bitcoin and its value see 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ron2013quantitative"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The issue of legal tender is quite different.
+ Legal tender means a state imposing a method of transaction (that it controls)
+ within its territory.
+ This has the positive effect that it unifies accounting.
+ However, if the state does not manage the currency in a credible fashion,
+ then this will lead to hyperinflation.
+ This in term will lead to capital flight.
+ A recent example in Argentina, which, at the time of writing, taxes all
+ foreign credit card purchases with an additional 35%.
+ By having a system without a single owner, this is rendered impossible.
+ The Argentinian case further illustrate how Bitcoin can be used in times
+ of economic crisis.
+ During each of the currency crises that hit Argentina during the last decades,
+ barter currencies arose.
+ These provide a more stable means of holding value than government sactioned
+ money.
+ By having a barter currency with a value outside the country (which can
+ be quoted in US dollar), additional stability can be added.
 \end_layout
 
 \begin_layout Section
-Uses of Bitcoin
+Challenages and Future
+\end_layout
+
+\begin_layout Standard
+What are the challanges
 \end_layout
 
 \begin_layout Itemize
-remittances
+acceptance
 \end_layout
 
 \begin_layout Itemize
-mobile payments
+ways to enable widespread use (sms transactions)
+\end_layout
+
+\begin_layout Standard
+What lies ahead
 \end_layout
 
 \begin_layout Itemize
-store of value (when compared to unstable currencies, e.g.
- ARS)
+alternative cryptocurrencies, reduce dependence
 \end_layout
 
-\begin_layout Itemize
-online 'tipping'
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "D:/Drive/LaTeX/bibliography"
+options "plainnat"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-crowdfunding 
+\end_inset
+
+
 \end_layout
 
-\begin_layout Section
-Bitcoin and the Aid Industry
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography
 \end_layout
 
-\begin_layout Itemize
-source of funding
-\end_layout
+\end_inset
 
-\begin_deeper
-\begin_layout Itemize
-tipping
-\end_layout
 
-\begin_layout Itemize
-crowdfunding (e.g KeePod)
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-tying remittances to mobile payments
-\end_layout
-
-\begin_layout Itemize
-independance of local currency, exchanges etc.
 \end_layout
 
 \end_body
