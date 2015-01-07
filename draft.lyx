@@ -123,8 +123,8 @@ key "nakamoto2008bitcoin"
 \end_layout
 
 \begin_layout Standard
-This article focusses on potential uses of Bitcoin in development and the
- aid industry, a discussion of the merit of the existance of the Bitcoin
+This article focuses on potential uses of Bitcoin in development and the
+ aid industry, a discussion of the merit of the existence of the Bitcoin
  system is outside the scope of this article, we observe that for better
  or worse, the system now exists and will exist, although Bitcoin might
  be overtaken by even other systems, for the purposes of this article, we
@@ -163,19 +163,54 @@ How does Bitcoin work?
 \end_layout
 
 \begin_layout Standard
-It is useful at this point to make the distinction between Bitcoin (capital
- B), which is the entire system, and bitcoin (miniscule b), which is the
- dominant unit of account, similar to a Swiss franc or a euro.
+Bitcoin was created in an attempt to solve the problem of online anonymous
+ transactions in a decentralised system.
+ This required addressing several previously unsolved problems.
+ Bitcoin introduces several technological innovations.
 \end_layout
 
 \begin_layout Standard
-All transactions in the bitcoin system are stored in a public ledger, called
- the blockchain.
- It includes the amount, the sending and receiving addresses, as well as
- an optional message.
- Since all transactions are public (thought the addresses are anonymous),
- it enables indefinite tracking of flows.
- This can increase accountability and prevent leakages.
+The core part of the Bitcoin system is the public ledger called the blockchain,
+ it contains all transactions in the history of the Bitcoin system.
+ However, since the system was designed to be decentralised, there is not
+ one primary version, in fact there are millions of identical copies called
+ nodes.
+ Decisions are based on a consensus of the nodes, which means that the majority
+ determines which transactions are valid.
+ This prevents individuals from meddling with the ledger.
+\end_layout
+
+\begin_layout Standard
+The software that users have on their computer, phone, or online, is set
+ over several keys.
+ Most importantly, the private key, possession of this number constitutes
+ ownership of the wallet.
+ Using the private key, two things can be created, Bitcoin addresses, on
+ which, bitcoins can be deposited, and digital signatures, which can be
+ used to send Bitcoins from these addresses.
+ A typical process would be as follows.
+ A user downloads the Bitcoin software on his computer or smartphone.
+ Using the software, a new private key is generated.
+ Using the private key, a set of Bitcoin addresses is created.
+ The users receives a Bitcoin payment in one of these addresses, in return
+ for e.g.
+ goods sold.
+ The user now purchases something with Bitcoin.
+ Using the software, a transaction from the Bitcoin address which received
+ the Bitcoin is created and published to the Bitcoin network, in combination
+ with a signature, which is also generated from the private key.
+ The Bitcoin network receives the transaction request, using a mathematical
+ procedure, the signature is verified to belong to the address containing
+ the Bitcoins (this is proves that the signer owns the private key which
+ belongs to the address and can be done by the network without knowing this
+ private key).
+ The transaction is then accepted at which point it simultaneously is committed.
+\end_layout
+
+\begin_layout Standard
+It is useful at this point to make the distinction between Bitcoin (capital
+ B), which is the entire system, and bitcoin (miniscule b), which is the
+ dominant unit of account, similar to a Swiss franc or a euro.
 \end_layout
 
 \begin_layout Subsection*
@@ -286,6 +321,41 @@ subversive funding (high powered social media)
 problem of required internet access
 \end_layout
 
+\begin_layout Standard
+In this section we will discuss how Bitcoin relates specifically to the
+ aid sector, there are a few aspects of particular interest to the aid sector.
+ Firstly, there is the instant nature of the transactions, and how this
+ can help in possible disbursement problems.
+ Secondly, traceability and anonymity of the transactions and how this relates
+ to partnerships with local governments.
+ Thirdly, in relation to local governments, there is the issue of not using
+ the local currency, which is legal tender, which can be problematic if
+ government disagree with this practice, but in situations where there is
+ no cooperation it can also be beneficial, such as Argentina or Zimbabwe.
+\end_layout
+
+\begin_layout Standard
+The second aspect of Bitcoin which is particularly relevant is the nature
+ of the transactions.
+ All transactions are public, as they are recorded in the public ledger
+ called the blockchain, however originating and receiving addresses can
+ be anonymous and created freely.
+\end_layout
+
+\begin_layout Standard
+Traceability with local partner agreement, can be a condition for future
+ cooperation.
+ The optional message.
+ Without local cooperation, the flow of Bitcoins can still be traced but
+ it will not longer be possible to link addresses to individuals or organisation
+s.
+\end_layout
+
+\begin_layout Standard
+Anonymous donations to local partners, no need for government cooperation,
+ also provide possibility of donating to readers, without directly embracing.
+\end_layout
+
 \begin_layout Subsection*
 Crowdfunding and Bitcoin
 \end_layout
@@ -335,6 +405,18 @@ What are the challenges
 \end_layout
 
 \begin_layout Itemize
+hacking
+\end_layout
+
+\begin_layout Itemize
+stigma of illegal nature
+\end_layout
+
+\begin_layout Itemize
+government opposition
+\end_layout
+
+\begin_layout Itemize
 acceptance
 \end_layout
 
@@ -348,6 +430,22 @@ What lies ahead
 
 \begin_layout Itemize
 alternative cryptocurrencies, reduce dependence
+\end_layout
+
+\begin_layout Standard
+Research questions
+\end_layout
+
+\begin_layout Itemize
+size of bitcoin remittances
+\end_layout
+
+\begin_layout Itemize
+use of sms transactions
+\end_layout
+
+\begin_layout Itemize
+size of bitcoin donations
 \end_layout
 
 \begin_layout Standard
