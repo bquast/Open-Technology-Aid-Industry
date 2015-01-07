@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass article
@@ -20,13 +20,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -47,15 +47,24 @@
 \pdf_pdfusetitle true
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -87,19 +96,18 @@ Bastiaan Quast
 \end_layout
 
 \begin_layout Abstract
-The internet impacts virtually everything around us, the first half of this
- decade has finally seen that impact extend to the financial sector.
- we discuss two recent innovations in financial technology - Bitcoin and
- crowdfunding - in relation to the aid sector.
- Many aspects of Bitcoin are very enabling, which provides the development
- sector with a powerful tool for the achievement of its aims.
+Anonymous online transactions through Bitcoin stand to change much in the
+ both the aid sector.
+ The instant and virtually free nature of Bitcoin is very enabling, which
+ provides the aid sector with a powerful tool for the achievement of its
+ aims.
  In this context we discuss i.a.
  remittances, mobile transactions, and barter currencies in times of financial
  crises.
- Furthermore, potential uses in the development sector itself that we discuss
- are, accountability via the public ledger system, a lower threshold to
- online funding, due to the pre-paid nature, and a lesser dependence on
- local governments.
+ Furthermore, potential changes in the development sector itself, that we
+ discuss are, traceability and anonymity of transactions via the public
+ ledger system, a lower threshold to online funding, due to the pre-paid
+ nature, and interactions with local governments.
 \end_layout
 
 \begin_layout Section
@@ -123,8 +131,8 @@ key "nakamoto2008bitcoin"
 \end_layout
 
 \begin_layout Standard
-This article focusses on potential uses of Bitcoin in development and the
- aid industry, a discussion of the merit of the existance of the Bitcoin
+This article focuses on potential uses of Bitcoin in development and the
+ aid industry, a discussion of the merit of the existence of the Bitcoin
  system is outside the scope of this article, we observe that for better
  or worse, the system now exists and will exist, although Bitcoin might
  be overtaken by even other systems, for the purposes of this article, we
@@ -173,7 +181,7 @@ Bitcoin was created in an attempt to solve the problem of online anonymous
 The core part of the Bitcoin system is the public ledger called the blockchain,
  it contains all transactions in the history of the Bitcoin system.
  However, since the system was designed to be decentralised, there is not
- one primary version, in fact there are milions of identical copies called
+ one primary version, in fact there are millions of identical copies called
  nodes.
  Decisions are based on a consensus of the nodes, which means that the majority
  determines which transactions are valid.
@@ -183,7 +191,7 @@ The core part of the Bitcoin system is the public ledger called the blockchain,
 \begin_layout Standard
 The software that users have on their computer, phone, or online, is set
  over several keys.
- Most importantly, the private key, possesion of this number consitutes
+ Most importantly, the private key, possession of this number constitutes
  ownership of the wallet.
  Using the private key, two things can be created, Bitcoin addresses, on
  which, bitcoins can be deposited, and digital signatures, which can be
@@ -204,7 +212,7 @@ The software that users have on their computer, phone, or online, is set
  the Bitcoins (this is proves that the signer owns the private key which
  belongs to the address and can be done by the network without knowing this
  private key).
- The transaction is then accepted at which point it simultaniously is committed.
+ The transaction is then accepted at which point it simultaneously is committed.
 \end_layout
 
 \begin_layout Standard
@@ -337,9 +345,9 @@ In this section we will discuss how Bitcoin relates specifically to the
 \begin_layout Standard
 The second aspect of Bitcoin which is particularly relevant is the nature
  of the transactions.
- All transactions are public, as they are recorded in the public leger called
- the blockchain, however originating and receiving addresses can be anonymous
- and created freely.
+ All transactions are public, as they are recorded in the public ledger
+ called the blockchain, however originating and receiving addresses can
+ be anonymous and created freely.
 \end_layout
 
 \begin_layout Standard
