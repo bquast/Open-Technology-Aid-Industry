@@ -79,7 +79,7 @@
 \begin_body
 
 \begin_layout Title
-Innovation in Development Finance: Bitcoin and Crowdfunding
+Bitcoin in Development and the Aid Sector
 \end_layout
 
 \begin_layout Author
@@ -90,15 +90,16 @@ Bastiaan Quast
 The internet impacts virtually everything around us, the first half of this
  decade has finally seen that impact extend to the financial sector.
  we discuss two recent innovations in financial technology - Bitcoin and
- crowdfunding - in relation to development aid.
- Many aspects of Bitcoin are very enabeling, which provides the development
- sector with a powerful tool for the achivement of its aims.
+ crowdfunding - in relation to the aid sector.
+ Many aspects of Bitcoin are very enabling, which provides the development
+ sector with a powerful tool for the achievement of its aims.
  In this context we discuss i.a.
  remittances, mobile transactions, and barter currencies in times of financial
- crisis.
+ crises.
  Furthermore, potential uses in the development sector itself that we discuss
- are, accountability via the public ledger system, low threshhold online
- funding, due to the pre-paid nature, and a lesser relience on local governments.
+ are, accountability via the public ledger system, a lower threshold to
+ online funding, due to the pre-paid nature, and a lesser dependence on
+ local governments.
 \end_layout
 
 \begin_layout Section
@@ -109,9 +110,9 @@ Introduction
 Bitcoin is a online decentralised monetary system, which aims to cut out
  many of the middle men in the financial system, specifically governments
  and banks.
- Bitcoin is set up to be completely anonymous and decentralised, the originates
- as a whitepaper "Bitcoin: A peer-to-peer electronic cash system" published
- under the psuedonym 
+ The system is set up to be completely anonymous and decentralised, it originate
+s from a white paper "Bitcoin: A peer-to-peer electronic cash system" published
+ under the pseudonym 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "nakamoto2008bitcoin"
@@ -122,7 +123,17 @@ key "nakamoto2008bitcoin"
 \end_layout
 
 \begin_layout Standard
-The ownership of bitcoins is registeren in the public ledger called the
+This article focusses on potential uses of Bitcoin in development and the
+ aid industry, a discussion of the merit of the existance of the Bitcoin
+ system is outside the scope of this article, we observe that for better
+ or worse, the system now exists and will exist, although Bitcoin might
+ be overtaken by even other systems, for the purposes of this article, we
+ are primarily concerned with the fact that an anonymous internet-based
+ transaction mechanism exists.
+\end_layout
+
+\begin_layout Standard
+The ownership of bitcoins is registered in the public ledger called the
  blockchain, and can be proven by publishing a signature online, using a
  secret key.
  This means that transactions can be conducted from any computer or smartphone
@@ -130,22 +141,21 @@ The ownership of bitcoins is registeren in the public ledger called the
 \end_layout
 
 \begin_layout Standard
-There are many uses for this type of a monetary system, in fact the aim
- of the Bitcoin foundation, is to do to the financial industry, what the
- internet did to the publishing industry.
- In this article we will focus on the uses particular to development aid.
+There are many uses for a monetary system of this type, in this article
+ we will focus on the uses particular to the aid sector.
 \end_layout
 
 \begin_layout Standard
 In the next section, we discuss the mechanics behind the Bitcoin system
- in some more detail, with examples specific to development aid.
+ in some more detail, with examples specific to development, as well the
+ value of Bitcoin.
  Subsequently, we list some of the key potential uses of Bitcoin in the
  development.
- In section four we discuss Crowdfunding and how it relates to the development
- sector.
- We pay some further attention to the economics behind bitcoin and how this
- relates to development aid in section five.
- 
+ In section four we discuss some new possibility for the aid sector in particula
+r.
+ We conclude with a discussion on the key challenges for widespread use
+ of bitcoin in development and some recent innovations with potential uses
+ in the development sector.
 \end_layout
 
 \begin_layout Section
@@ -154,8 +164,8 @@ How does Bitcoin work?
 
 \begin_layout Standard
 It is useful at this point to make the distinction between Bitcoin (capital
- B), which is the entire system, and bitcoin (miniculus b), which is the
- dominant unit of account, similar to a swiss franc or a euro.
+ B), which is the entire system, and bitcoin (miniscule b), which is the
+ dominant unit of account, similar to a Swiss franc or a euro.
 \end_layout
 
 \begin_layout Standard
@@ -168,68 +178,8 @@ All transactions in the bitcoin system are stored in a public ledger, called
  This can increase accountability and prevent leakages.
 \end_layout
 
-\begin_layout Section
-Potential Uses of Bitcoin in Development
-\end_layout
-
-\begin_layout Standard
-There are many (potential) uses of Bitcoin in the development sector.
- An obvious first for a truely global and location independent monetary
- system is remittances.
- Transactions are virtually of costs, and distance plays no role.
- The only requirement here would be that there exists a market where Bitcoin
- can be traded for local currency, which is true for virtually all currencies.
-\end_layout
-
-\begin_layout Standard
-However, even if such a market would not exist, there is to potential for
- communities to accept bitcoin as tender, in addition to the existing forms.
- In particular, mobile payment systems using either smartphones or sms-based
- systems would make this particularly convenient.
-\end_layout
-
-\begin_layout Section
-Crowdfunding and Bitcoin
-\end_layout
-
-\begin_layout Standard
-A further innovation in the finance industry is crowdfunding.
- In a crowdfunding campaign an idea is described and the public is asked
- to 'donate' an amount in order to make it come true.
- Depending on the amount 'donated' this can unlock certain perks, such as:
- a thank you on social media, mentioning on the website or a physical or
- digital copy of the final product, e.g.
- the Peddle smartwatch.
- Many of these campaigns have goals that involve social development, such
- as the Keepod campaign.
- Which aims to create usb key which contain an operating system that can
- be loaded direct from the USB key, for people who do not own a comptuer.
- Contributors in this campaign could donate money, for each key that was
- ordered, an additional key was given to slumdwellers in Nairobi.
-\end_layout
-
-\begin_layout Standard
-Generally these campaigns are organised through established platforms such
- a Kickstarter of Indiegogo.
- There are several reasons for this, firstly, payment if often via creditcard,
- which means that the institution has to be trustworthy.
- Since Bitcoin operate on a sort of pre-paid model, such as paypal, it enables
- the customer to contribute without surendering sensible information.
- A good example of a crowdfunding initiative that uses Bitcoin, is called
- "Bitcoin against Ebola", which provides books and lunches for children
- living in affected areas.
-\end_layout
-
-\begin_layout Standard
-A variation on crowdfunding is the relatively recent phenomenon of internet
- tipping, like it real world counterpart, a good dead, comment or idea is
- rewarded (after the fact) with a tip.
- By operating on a pre-paid model, tips can be given to total strangers,
- who otherwise would perhaps not be trusted with this sensible information.
-\end_layout
-
-\begin_layout Section
-Economics of Bitcoin
+\begin_layout Subsection*
+Bitcoin Value
 \end_layout
 
 \begin_layout Standard
@@ -244,13 +194,13 @@ The discussion on it value is a complicated one, outside of the scope of
 \end_layout
 
 \begin_layout Enumerate
-Bitcoin has sustained a large and positive value over a sustained period
+Bitcoin has sustained a positive and large value over a sustained period
  of time
 \end_layout
 
 \begin_layout Enumerate
-Most transaction methods, have no intrinsic value, fiat currencies, but
- even gold has very little
+Most transaction unites in monetary systems, have no intrinsic value, fiat
+ currencies, but even gold has very little
 \end_layout
 
 \begin_layout Standard
@@ -266,31 +216,118 @@ key "ron2013quantitative"
 
 \begin_layout Standard
 The issue of legal tender is quite different.
- Legal tender means a state imposing a method of transaction (that it controls)
- within its territory.
+ Legal tender essentially means a state imposing a method of transaction
+ (that it controls) within its territory.
  This has the positive effect that it unifies accounting.
  However, if the state does not manage the currency in a credible fashion,
  then this will lead to hyperinflation.
  This in term will lead to capital flight.
- A recent example in Argentina, which, at the time of writing, taxes all
- foreign credit card purchases with an additional 35%.
+ A recent and reoccurring example in Argentina, which, at the time of writing,
+ taxes all foreign credit card purchases with an additional 35%.
  By having a system without a single owner, this is rendered impossible.
  The Argentinian case further illustrate how Bitcoin can be used in times
  of economic crisis.
  During each of the currency crises that hit Argentina during the last decades,
  barter currencies arose.
- These provide a more stable means of holding value than government sactioned
+ These provide a more stable means of holding value than government sanctioned
  money.
  By having a barter currency with a value outside the country (which can
  be quoted in US dollar), additional stability can be added.
 \end_layout
 
 \begin_layout Section
-Challenages and Future
+Bitcoin in Development
 \end_layout
 
 \begin_layout Standard
-What are the challanges
+There are many (potential) uses of Bitcoin in the development sector.
+ An obvious first for a truly global and location independent monetary system
+ is remittances.
+ Transactions are virtually free-of-cost, and distance plays no role.
+ The only requirement is that there exists a market where Bitcoin can be
+ traded for local currency, which holds for most currencies.
+\end_layout
+
+\begin_layout Standard
+However, even if such a market would not exist, there is to potential for
+ communities to accept bitcoin as tender, in addition to existing forms.
+ In particular, mobile payment systems using either smartphones or sms-based
+ systems would make this particularly convenient.
+\end_layout
+
+\begin_layout Section
+Bitcoin in Aid
+\end_layout
+
+\begin_layout Itemize
+traceability
+\end_layout
+
+\begin_layout Itemize
+disbursement problem
+\end_layout
+
+\begin_layout Itemize
+asking for direct funding, i.e.
+ not through aid agency
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+lesser political liability, link to:
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+subversive funding (high powered social media)
+\end_layout
+
+\begin_layout Subsection*
+Crowdfunding and Bitcoin
+\end_layout
+
+\begin_layout Standard
+A further recent innovation in the finance industry is crowdfunding.
+ In a crowdfunding campaign an idea is described and the public is asked
+ to 'donate' an amount in order to fund the realisation.
+ Depending on the amount 'donated' this can unlock certain perks, such as:
+ a thank you on social media, or a physical or digital copy of the final
+ product, such as a video game or, a smartwatch (Pebble).
+ Many of these campaigns have goals that involve social development, such
+ as the Keepod campaign.
+ Which aimed to create USB key which contains an operating system that can
+ be loaded direct from the USB key, so that people who do not own a computer
+ can run their own system on any computer.
+ Contributors in this campaign could donate money, for each key that was
+ ordered, an additional key was given to slum dwellers in Nairobi.
+\end_layout
+
+\begin_layout Standard
+Generally these campaigns are organised through established platforms such
+ a Kickstarter of Indiegogo.
+ There are several reasons for this, firstly, payment if often via creditcard,
+ which means that the institution has to be trustworthy.
+ Since Bitcoin operate on a sort of pre-paid model, such as PayPal, it enables
+ the customer to contribute without surrendering sensible information.
+ A good example of a crowdfunding initiative that uses Bitcoin, is called
+ "Bitcoin against Ebola", which provides books and lunches for children
+ living in affected areas.
+\end_layout
+
+\begin_layout Standard
+A variation on crowdfunding is the relatively recent phenomenon of internet
+ tipping, like it's physical world counterpart, a good dead, idea, or comment
+ is rewarded (after the fact) with a tip.
+ By operating on a pre-paid model, tips can be given to total strangers,
+ who otherwise would perhaps not be trusted with this kind sensible information.
+\end_layout
+
+\begin_layout Section
+Challenges and Future
+\end_layout
+
+\begin_layout Standard
+What are the challenges
 \end_layout
 
 \begin_layout Itemize
