@@ -9,7 +9,8 @@
 \let\cite\textcite
 
 % add the bib file
-\addbibresource{D:/Drive/LaTeX/bibliography.bib} 
+\addbibresource{D:/Drive/LaTeX/bibliography.bib}
+\addbibresource{/Drive/LaTeX/bibliography.bib}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -88,7 +89,7 @@
 \begin_body
 
 \begin_layout Title
-Bitcoin in Development and the Aid Sector
+Bitcoin in the Aid Sector
 \end_layout
 
 \begin_layout Author
@@ -283,19 +284,49 @@ Bitcoin in Development
 \end_layout
 
 \begin_layout Standard
-There are many (potential) uses of Bitcoin in the development sector.
- An obvious first for a truly global and location independent monetary system
- is remittances.
- Transactions are virtually free-of-cost, and distance plays no role.
- The only requirement is that there exists a market where Bitcoin can be
- traded for local currency, which holds for most currencies.
+We can identify some key benefits to the Bitcoin system.
+\end_layout
+
+\begin_layout Itemize
+virtually free transactions (or month costs etc.)
+\end_layout
+
+\begin_layout Itemize
+transactions are instant
+\end_layout
+
+\begin_layout Itemize
+only need an internet connection
+\end_layout
+
+\begin_layout Itemize
+independent of government
 \end_layout
 
 \begin_layout Standard
-However, even if such a market would not exist, there is to potential for
- communities to accept bitcoin as tender, in addition to existing forms.
- In particular, mobile payment systems using either smartphones or sms-based
- systems would make this particularly convenient.
+Potential for:
+\end_layout
+
+\begin_layout Itemize
+remittances
+\end_layout
+
+\begin_layout Itemize
+inclusive banking
+\end_layout
+
+\begin_layout Itemize
+mobile payments
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+sms based
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+replace local barter currencies during crisis
 \end_layout
 
 \begin_layout Section
@@ -343,25 +374,28 @@ In this section we will discuss how Bitcoin relates specifically to the
 \end_layout
 
 \begin_layout Standard
-The second aspect of Bitcoin which is particularly relevant is the nature
- of the transactions.
- All transactions are public, as they are recorded in the public ledger
- called the blockchain, however originating and receiving addresses can
- be anonymous and created freely.
+Firstly, as noted above, the flow of Bitcoins can always be tracked, from
+ one Bitcoin address to the next, and so on.
+ However, these addresses are anonymous, since ownership is proven only
+ by knowledge of the private key.
+ This thus opens the possiblity of providing financial support to groups
+ who face government procecution.
+ This could be women's rights groups in Saudi-Arabia or LGBT groups in Russia.
+ This is anonymous to both the sender and the receiver.
 \end_layout
 
 \begin_layout Standard
-Traceability with local partner agreement, can be a condition for future
+The second aspect of Bitcoin which is particularly relevant is the nature
+ of the transactions.
+ All transactions are public, as they are recorded in the public ledger.
+ This makes it possible to see where bitcoins go after they are sent to
+ a certain address.
+ Traceability with local partner agreement, can be a condition for future
  cooperation.
  The optional message.
  Without local cooperation, the flow of Bitcoins can still be traced but
  it will not longer be possible to link addresses to individuals or organisation
 s.
-\end_layout
-
-\begin_layout Standard
-Anonymous donations to local partners, no need for government cooperation,
- also provide possibility of donating to readers, without directly embracing.
 \end_layout
 
 \begin_layout Subsection*
@@ -463,7 +497,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "D:/Drive/LaTeX/bibliography"
+bibfiles "D:/Drive/LaTeX/bibliography,/home/bquast/Drive/LaTeX/bibliography"
 options "plainnat"
 
 \end_inset
